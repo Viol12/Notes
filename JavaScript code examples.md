@@ -1,6 +1,6 @@
 # Примеры кода
 
-## JavaScript
+## JavaScript (jQuery)
 
 #### Изменяем каждое второе слово в строке взятой из HTML тега по классу ".slider-title"
 
