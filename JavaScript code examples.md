@@ -1,5 +1,10 @@
-  Изменяем каждое второе слово в строке взятой из HTML тега по классу ".slider-title"
-  
+# Примеры JavaScript кода
+
+
+
+#### Изменяем каждое второе слово в строке взятой из HTML тега по классу ".slider-title"
+
+```js
   $(".slider-title").html(function(index, value) {
     return strEven = value.replace(/\b(\w+)\b/g, function(i) {
       return function() {
@@ -9,3 +14,4 @@
       };
     }(0));
   });
+```
