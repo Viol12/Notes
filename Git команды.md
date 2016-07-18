@@ -33,7 +33,6 @@
 * git log -p -2   //   -p выводит только разницу внесенную в каждый коппит, -2 устанавливает лимит на вывод количества коммитов
 * git log --stat   //   показывает сокращенную статистику для каждого коммита
 * git merge origin/ticket_1001_branch   //   слияние веток 
-* git init  //   создает репозиторий в данной директории
 * git pull origin ticket_1001_branch   //   забирает изменения из ветки на удаленном сервере и проводит слияние с активной * веткой
 * mkdir project_dir   //   создание нового локального репазитория (после нужно выполнить cd project_dir и git init)
 * git cherry-pick eb042098a5   //   применить один коммит из одной ветку в другую
@@ -42,11 +41,6 @@
 * git help 
 * mkdir 
 * cd
-* git status
-* git add
-* git commit -m "…"
-* git add —all
-* git log
 * git diff
 * git diff —staged
 * git reset HEAD "…"
@@ -56,13 +50,10 @@
 * git commit —amend -m "…"
 * git remote add origin "…"
 * git remote -v
-* git push origin master
-* git pull
 * git remote rm <name>
 * git clone "…"
 * git clone «…» <name>
 * git branch cat
-* git branch
 * git checkout <name branch>
 * ls
 * git merge <name branch>
@@ -80,6 +71,3 @@
 * git rebase <name branch>
 * git diff HEAD
 * git blame <name file>
-* git config —global core.editor <name editor>
-* git config —list
-* git config —global alias.st status
