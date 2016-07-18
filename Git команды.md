@@ -98,3 +98,4 @@
 * `git stash drop stash@{0}`
 * `git stash pop stash@{0}`
 * `git stash branch <name branch>`
+* `git reflog`
