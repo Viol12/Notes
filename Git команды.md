@@ -3,8 +3,8 @@
 
 ### Настройки
 
-* git config --global user.email "John@gmail.com"   //   установить ваш email в git гловально
-* git config --global user.name "John Doe"   //   установить ваше имя в git гловально 
+* `git config --global user.email "John@gmail.com"`   //   установить ваш email в git гловально
+* **git config --global user.name "John Doe"**   //   установить ваше имя в git гловально 
 * git config user.email   //   проверить ваш email в git
 * git config user.name   //   проверить ваше имя в git
 * git config --global core.editor emacs     //   устанавлявает редактор для записей в консоле, например (emacs)
