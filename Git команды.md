@@ -4,12 +4,12 @@
 ### Настройки
 
 * `git config --global user.email "John@gmail.com"`   //   установить ваш email в git гловально
-* **git config --global user.name "John Doe"**   //   установить ваше имя в git гловально 
-* git config user.email   //   проверить ваш email в git
-* git config user.name   //   проверить ваше имя в git
-* git config --global core.editor emacs     //   устанавлявает редактор для записей в консоле, например (emacs)
-* git config --list   //   показывает все настройки которые установдлены в git, в том числе и алисы
-* -- global   //   исполняет команду глобально, тоесть во всей системе
+* `git config --global user.name "John Doe"`   //   установить ваше имя в git гловально 
+* `git config user.email`   //   проверить ваш email в git
+* `git config user.name`   //   проверить ваше имя в git
+* `git config --global core.editor emacs`     //   устанавлявает редактор для записей в консоле, например (emacs)
+* `git config --list`   //   показывает все настройки которые установдлены в git, в том числе и алисы
+* `-- global`   //   исполняет команду глобально, тоесть во всей системе
 
 ### Работа с ветками
 
