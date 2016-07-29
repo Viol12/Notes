@@ -18,7 +18,8 @@
 
 ### Статьи
 
-[`Разработка темы для Magento: Введение`](http://ruseller.com/lessons.php?rub=1&id=2107)
+[`Разработка темы для Magento: Введение`](http://ruseller.com/lessons.php?rub=1&id=2107)<br/>  
+
 [`Разработка темы для Magento: Макет`](http://ruseller.com/lessons.php?rub=37&id=2143)
 * Структура тем в Magento
 * Что такого лежит в папке Base и почему ее нельзя изменять?
