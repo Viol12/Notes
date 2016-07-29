@@ -4,7 +4,7 @@
 
 ### Видео
 
-`HOSTiQ - 10 видео на Русском языке`(https://www.youtube.com/playlist?list=PLGT7Tpg9uuvPrBuV8FueOomFHx6Mv9cFz)
+[`HOSTiQ - 10 видео на Русском языке`](https://www.youtube.com/playlist?list=PLGT7Tpg9uuvPrBuV8FueOomFHx6Mv9cFz)
 * Как установить Magento с помощью cPanel
 * Патчи, руссификация и администрирование
 * Установка темы на Magento
