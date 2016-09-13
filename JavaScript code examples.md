@@ -24,3 +24,25 @@
     $(".menu").toggleClass("menuOpen");
   });
 ```
+
+
+#### Меняем класс всей колонки в таблице по наведению, кроме первой. #deliveryCost - айдишник таблицы. accentuated - класс, который добавляется к ячейки. 
+
+```js
+  var $deliveryCost = $('#deliveryCost');
+
+$deliveryCost.find('td').mouseover(function() {
+    var tds = $( this ).parent().find('td'),
+        index = $.inArray( this, tds );
+    if (index !== 0) {
+        $deliveryCost.find('td:nth-child('+( index + 1 )+')').addClass( 'accentuated' );
+        $deliveryCost.find('th:nth-child('+( index + 1 )+')').addClass( 'accentuated' );
+    }
+}).mouseout(function() {
+    var tds = $( this ).parent().find('td'),
+        index = $.inArray( this, tds );
+
+    $deliveryCost.find('td:nth-child('+( index + 1 )+')').removeClass( 'accentuated' );
+    $deliveryCost.find('th:nth-child('+( index + 1 )+')').removeClass( 'accentuated' );
+});
+```
