@@ -62,6 +62,8 @@
 * `git rm <file1> <file2>`   ~   удалить file1 и file2
 * `git status`   ~   узнать какие файлы в каком состоянии находятся
 * 
+* `git diff <file>`   ~    показать что конкретно поменялось в файле 
+*
 * `git commit -m "…"`   ~   создать комментарий для последних изменений
 * `git commit -a -m "…"`  ~  добавляет изменения и создает комментарий одновременно  
 * `git commit —amend -m "…"`  ~  добавить созданные изменения в последний комментарий
@@ -90,8 +92,6 @@
 * `git cherry-pick eb042098a5`   ~   применить один коммит из одной ветку в другую
 * `git grep`   ~   поиск подстроки в проэкте
     
-
-* `git diff`
 * `git diff —staged`
 * `git reset HEAD "…"`
 * `git checkout —"…"`
@@ -109,9 +109,9 @@
 * `git checkout v0.0.1`
 * `git tag -a v0.0.1 -m "…"`
 * `git push —tags`
-* `git fetch`
-* `git rebase`
-* `git rebase <name branch>`
+* ``git fetch``
+* ```git rebase```
+* ````git rebase <name branch>````
 * `git diff HEAD`
 * `git blame <name file>`
 
