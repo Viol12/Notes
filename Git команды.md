@@ -111,7 +111,7 @@
 * `git push —tags`
 * ``git fetch``
 * ```git rebase```
-* ````git rebase <name branch>````
+* ```git rebase <name branch>```
 * `git diff HEAD`
 * `git blame <name file>`
 
