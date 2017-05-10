@@ -20,6 +20,7 @@
 * `git config user.email`   ~   проверить ваш email в git
 * `git config user.name`   ~   проверить ваше имя в git
 * `git config --global core.editor emacs`     ~   устанавлявает редактор для записей в консоле, например (emacs)
+* `git config --global alias.что-то` 'тут то, что нужно'     ~   установить новый алиас
 * `git config --list`   ~   показывает все настройки которые установдлены в git, в том числе и алисы
 * `source ~/.bash_aliases`   ~   подтянуть изменения настроек из файла, если редактор сам этого не делает (например изменения сделанные в файле .bash_aliases)
 
